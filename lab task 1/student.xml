@@ -2,11 +2,11 @@
     <student1 sr="23">
       <first_name>John</first_name>  
       <last_name>Carter</last_name>
-    <admission_date1>
+     <admission_date1>
         <date>25</date>
         <month>12</month>
         <year>2015</year>
-    </admission_date1>
+     </admission_date1>
     </student1>
  
     <student2 sr="23">
@@ -19,7 +19,7 @@
       </admission_date2>
       </student2>
  
-      <student1 sr="23">
+      <student3 sr="23">
         <first_name>Clark</first_name>  
         <last_name>Kent</last_name>
       <admission_date3>
