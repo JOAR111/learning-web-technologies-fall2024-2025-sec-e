@@ -1,0 +1,76 @@
+<html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <table align="center" height="500px" width="30%" border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <h1>Sign Up</h1>
+                <form action="../controller/author_reg_check.php" method="post">
+                    <table>
+                        <tr>
+                            <td>Username</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="user_name" id="user_name_id" onkeyup="check_username()">
+                                <p id="user_name_val">Username cannot be null</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Author Name</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="author_name" id="author_name_id" onkeyup="check_author_name()">
+                                <p id="author_name_val">Author name cannot be null</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Contact No</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="contact_no" id="contact_no_id" onkeyup="check_contact_no()">
+                                <p id="contact_no_val">Contact number cannot be null</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" name="password" id="pass_id" onkeyup="check_password()">
+                                <p id="password_val">Password cannot be null</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Confirm Password</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" name="confirm_password" id="con_pass_id" onkeyup="check_confirm_password()">
+                                <p id="con_password_val">Confirm password cannot be null</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" name="signup" value="Sign Up">
+                                <input type="reset" name="reset" value="Reset">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="signin.html">Sign In</a>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <script src="../asset/js/signup.js"></script>
+</body>
+</html>
